@@ -202,7 +202,11 @@ button.disabled:hover {
 <script>
 'use strict';
 var items = [
-    // Define your items here
+    {id: 'Ship1'},
+    {id: 'Ship2'},
+    {id: 'Ship3'},
+    {id: 'Ship4'},
+    {id: 'Ship5'}
 ];
 var myPicker = new picker.Picker({
     items: items
